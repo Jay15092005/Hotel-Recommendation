@@ -41,7 +41,7 @@ df['Alcohol'].value_counts(dropna=False)
 
 
 
-st.header("Hotel Reccomandation Systumm")
+st.header("Hotel Recommendation Systumm")
 
 state_df=(df["State"].unique()).tolist()
 state=st.selectbox("Which State In You want To Go",state_df)
