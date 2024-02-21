@@ -16,7 +16,7 @@ def recommend_hotels(state, city, Categori , alchi):
 
 
 
-df = pd.read_csv("/Users/jaychotaliya/Downloads/Hotel Recommandation/csv_data.csv")
+df = pd.read_csv("csv_data.csv")
 df.head()
 unique_values = df.nunique()
 
